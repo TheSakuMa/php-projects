@@ -1,0 +1,121 @@
+/* ELEMENT STYLINGS */
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+header {
+  text-align: center;
+}
+main {
+  width: 85%;
+  margin: 0 auto; 
+}
+main>h2 {
+  text-align: center;
+}
+main>p {
+  text-align: center;
+}
+table {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+th, td {
+  border: 1px solid black;
+  padding: 1% 10px;
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+input {
+  height: 18px;
+  margin: 5px auto;
+}
+footer {
+  width: 100%;
+  text-align: center;
+}
+footer>p {
+  display: inline-block;
+  text-align: center;
+}
+/* ID STYLINGS */
+#buy-wrapper {
+  width: 100%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+#btn-wrapper {
+  width: 20%;
+}
+#btn-wrapper>input[type="submit"] {
+  -webkit-appearance: none;
+  background-image: none;
+  width: 85%;
+  margin: 10px auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* CLASS STYLINGS */
+.welcome>h3 {
+  text-align: center;
+}
+.submit {
+  border: 0.1px gray solid;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: lightgray;
+}
+.empty-cart {
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+.empty-cart p {
+  display: inline-block;
+  text-align: center;
+}
+.buy-history>h3 {
+  text-align: center;
+} 
+.buy-history>p {
+  text-align: center;
+} 
+/* buyConfirm.php */
+.buy-btn-wrapper {
+  width: 100%;
+  display: inline-block;
+}
+.buy-btn-wrapper>form, .buy-btn-wrapper>div {
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.buy-btn {
+  -webkit-appearance: none;
+  background-image: none;
+  color: black;
+  cursor: pointer;
+  margin: 13px 0 0 0;
+  width: 100%;
+  border: 1px solid rgb(216, 216, 216);
+  padding: 1px 7px 2px;
+  box-sizing: border-box;
+  font-size: 11px;
+  font-weight: 400;
+  transition-duration: 0.3s;
+}
+.buy-btn:hover {
+  background-color: lightgray;
+}

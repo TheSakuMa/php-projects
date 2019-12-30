@@ -1,0 +1,47 @@
+body {
+  background-color: skyblue;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+}
+
+.box {
+  margin: 30px auto;
+  background-color: #fff;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+}
+
+.box>h1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  line-height: 50px;
+}
+
+.box>p {
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+table {
+  width: 500px;
+  margin: 15px auto;
+  padding: 0;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+}
+
+th, td {
+  margin: 0;
+  padding: 6px 16px;
+  border-bottom: 2px solid skyblue;
+}
+
+tr {
+  text-align: center;
+}

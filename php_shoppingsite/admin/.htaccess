@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "admin"
+AuthUserFile /Applications/MAMP/Library/bin/passwd
+require valid-user
